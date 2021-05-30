@@ -1,0 +1,47 @@
+body {
+    background-color: #d5c639;
+}
+
+header {
+    background-color: rgb(71, 35, 0) !important;
+}
+
+.twitter {
+    height: 90vh;
+    overflow: scroll;
+    overflow-x: hidden;
+    margin: 0;
+}
+
+section {
+    background-color: rgba(47, 79, 68, 0.397);
+    width: 50vw;
+    h2 {
+        text-align: center;
+    }
+}
+
+footer {
+    width: 500px;
+    height: 20px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    background-color: darkgreen;
+    color: darkgrey;
+    text-align: center;
+    a {
+        color: yellow;
+    }
+}
+
+.icone {
+    color: white !important;
+    font-size: 5vh;
+    &:link {
+        color: white !important;
+    }
+    &:hover {
+        color: pink!important;
+    }
+}

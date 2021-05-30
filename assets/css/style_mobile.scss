@@ -1,0 +1,46 @@
+body {
+    background-color: #d5c639;
+}
+
+header {
+    background-color: rgb(71, 35, 0) !important;
+}
+
+section {
+    display: block !important;
+    background-color: rgba(47, 79, 68, 0.397);
+    h2 {
+        text-align: center;
+    }
+}
+
+.twitter {
+    height: 80vh;
+    width: 95vw;
+    overflow: scroll;
+    overflow-x: hidden;
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+.icone {
+    color: white !important;
+    font-size: 5vh;
+    &:link {
+        color: white !important;
+    }
+    &:hover {
+        color: pink!important;
+    }
+}
+
+footer {
+    display: inline-block;
+    width: 100%;
+    background-color: darkgreen;
+    color: darkgrey;
+    text-align: center;
+    a {
+        color: yellow;
+    }
+}
